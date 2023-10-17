@@ -39,6 +39,11 @@ print(nombre)
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
+x = 5
+y = 6
+suma = x + y
+
+print(suma)
 
 
 
@@ -47,7 +52,7 @@ print(nombre)
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
 # In[4]:
-
+print(type(suma))
 
 
 
@@ -55,15 +60,20 @@ print(nombre)
 # 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
 
 # In[1]:
-
-
 pi = 3.1416
+
+valor = pi
+print(valor)
 
 
 # 8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
 
 # In[3]:
+verdadero = True
+falso = False
 
+print(verdadero)
+print(falso)
 
 
 
@@ -71,7 +81,8 @@ pi = 3.1416
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
-
+print(type(verdadero))
+print(type(falso))
 
 
 
@@ -79,7 +90,11 @@ pi = 3.1416
 # 10) Asignar a una variable, la suma de un número entero y otro decimal
 
 # In[1]:
+x = float(input("ingrese un numero decimal: "))
+y = float( input("ingrese otro numero decimal: "))
 
+suma = x + y
+print(suma)
 
 
 
