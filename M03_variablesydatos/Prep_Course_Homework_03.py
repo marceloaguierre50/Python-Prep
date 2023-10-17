@@ -6,14 +6,15 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 
 # In[7]:
-
-
+f = 6
+print(f)
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
+x = 8.5
+print(type(x))
 
 
 
@@ -21,6 +22,7 @@
 # 3) Imprimir el tipo de dato de la variable creada en el punto 1
 
 # In[8]:
+print(type(f))
 
 
 
@@ -29,7 +31,8 @@
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
-
+nombre = "marcelo"
+print(nombre)
 
 
 
