@@ -102,7 +102,9 @@ print(suma)
 # 11) Realizar una operación de suma de números complejos
 
 # In[2]:
-
+x = 6 + 1j
+y = 1 + 4j
+print(x + y)
 
 
 
@@ -110,14 +112,15 @@ print(suma)
 # 12) Realizar una operación de suma de un número real y otro complejo
 
 # In[4]:
-
-
-
+x = a + 1.61
+print(x)
 
 
 # 13) Realizar una operación de multiplicación
 
 # In[5]:
+multi = 5 * 5
+print(multi)
 
 
 
