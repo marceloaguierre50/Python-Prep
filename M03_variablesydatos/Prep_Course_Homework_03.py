@@ -112,7 +112,7 @@ print(x + y)
 # 12) Realizar una operación de suma de un número real y otro complejo
 
 # In[4]:
-x = a + 1.61
+x = x + 1.61
 print(x)
 
 
@@ -129,7 +129,8 @@ print(multi)
 # 14) Mostrar el resultado de elevar 2 a la octava potencia
 
 # In[6]:
-
+x = 2**8
+print(x)
 
 
 
